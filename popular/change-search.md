@@ -1,1 +1,0 @@
-# Change Your Default Search Engine
