@@ -11,20 +11,20 @@ But Hyperweb's full power is in [smart suggested enhancements](/suggested) that 
 
 We hope you enjoy Hyperweb, and feel free to reach out to us via `support@hyperweb.app` with any questions.
 
-# Full list of features
+# All Features
 
 * Remove Hassles
-  * [Content blocker](/popular/annoyances/block-content)
-  * [Autoclicker](/popular/annoyances/autoclick)
+  * [Content Blocker](/remove-annoyances//block-content)
+  * [Autoclicker](/remove-annoyances//autoclick)
 * Scripting
-  * [Inject Custom Javascript](/popular/scripts/custom-js)
+  * [Inject Custom Javascript](/scripts/custom-js)
 * Styling
-  * [Inject Custom CSS](/popular/styling/custom-css)
-  * [Dark Mode](/popular/styling/dark-mode)
+  * [Inject Custom CSS](/styling/custom-css)
+  * [Dark Mode](/styling/dark-mode)
 * Web Search
-  * [Change the default search engine](/popular/search/change-search)
-  * [Create a trusted search filter](/popular/search/custom-search)
-  * [Create a custom recipe search filter](/popular/search/custom-search-recipe)
-  * [Create a custom news search filter](/popular/search/custom-search-news)
+  * [Change the default search engine](/search/change-search)
+  * [Create a trusted search filter](/search/custom-search)
+  * [Create a custom recipe search filter](/search/custom-search-recipe)
+  * [Create a custom news search filter](/search/custom-search-news)
 * [Local Enhancements](/local): Customize any site using if-then rules built right on your device.
 * [Suggested Enhancements](/suggested): Powerful enhancements automatically suggested as you browse the web
