@@ -1,0 +1,1 @@
+# How to disable cookies on any site
