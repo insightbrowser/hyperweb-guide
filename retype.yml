@@ -1,6 +1,6 @@
 input: .
 output: .retype
-url: # guide.hyperweb.app
+url: guide.hyperweb.app
 branding:
   title: Hyperweb Guide
   label: Docs
