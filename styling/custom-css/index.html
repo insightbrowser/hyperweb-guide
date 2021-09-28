@@ -6,30 +6,30 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>How to use a non Apple default search engine in iOS Safari</title>
-    <meta name="title" content="How to use a non Apple default search engine in iOS Safari">
-    <meta name="description" content="Hyperweb allows you to change your default Safari web search engine beyond one of the Apple defaults, for example to Brave Search or Startpage." />
+    <title>How to inject custom CSS in iOS Safari</title>
+    <meta name="title" content="How to inject custom CSS in iOS Safari">
+    <meta name="description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit. This is a free feature." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://guide.hyperweb.app/popular/search/change-search/">
-    <meta property="og:title" content="How to use a non Apple default search engine in iOS Safari">
-    <meta property="og:description" content="Hyperweb allows you to change your default Safari web search engine beyond one of the Apple defaults, for example to Brave Search or Startpage.">
-    <meta property="og:image" content="https://guide.hyperweb.app/static/images/dual-facing-changesearch-example.png">
+    <meta property="og:url" content="https://guide.hyperweb.app/styling/custom-css/">
+    <meta property="og:title" content="How to inject custom CSS in iOS Safari">
+    <meta property="og:description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit. This is a free feature.">
+    <meta property="og:image" content="https://guide.hyperweb.app/static/images/dual-facing-wikidarklight.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://guide.hyperweb.app/popular/search/change-search/">
-    <meta property="twitter:title" content="How to use a non Apple default search engine in iOS Safari">
-    <meta property="twitter:description" content="Hyperweb allows you to change your default Safari web search engine beyond one of the Apple defaults, for example to Brave Search or Startpage.">
-    <meta property="twitter:image" content="https://guide.hyperweb.app/static/images/dual-facing-changesearch-example.png">
+    <meta property="twitter:url" content="https://guide.hyperweb.app/styling/custom-css/">
+    <meta property="twitter:title" content="How to inject custom CSS in iOS Safari">
+    <meta property="twitter:description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit. This is a free feature.">
+    <meta property="twitter:image" content="https://guide.hyperweb.app/static/images/dual-facing-wikidarklight.png">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/static/images/logo_negative_color.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=1.9.686179065488" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.9.686179686420" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.9.686179065488" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.9.686179686420" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.9" defer data-turbo-track="reload"></script>
 </head>
     <body>
@@ -167,29 +167,46 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="how-to-use-a-non-apple-default-search-engine-in-ios-safari" class="break-words">
+<doc-anchor-target id="how-to-inject-custom-css-in-ios-safari" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-use-a-non-apple-default-search-engine-in-ios-safari">#</doc-anchor-trigger>
-        <span>How to use a non Apple default search engine in iOS Safari</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-inject-custom-css-in-ios-safari">#</doc-anchor-trigger>
+        <span>How to inject custom CSS in iOS Safari</span>
     </h1>
 </doc-anchor-target>
-<p>Hyperweb allows you to change your default Safari web search engine beyond one of the Apple defaults, for example to Brave Search or Startpage.</p>
+<p>Hyperweb allows you to inject custom CSS on any website to change the style as you see fit. This is a free feature.</p>
 <p><figure class="content-center">
-    <img src="/static/images/dual-facing-changesearch-example.png" alt="" />
+    <img src="/static/images/dual-facing-wikidarklight.png" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Under Popular, go to &quot;Override Search Engine&quot; and from there you can</p>
-<p><figure class="content-center">
-    <img src="/static/images/dual-facing-changesearch.png" alt="" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
+<p>Under the Popular tab go to Custom Styles. From there you can</p>
 <ol>
-<li>Enable one of our suggested search engines</li>
-<li>Add your own search engine using a custom URL</li>
+<li>Enable or disable a style suggested by us</li>
+<li>A a custom style from a URL, e.g. <a href="https://gitlab.com/vednoc/dark-instagram/raw/master/instagram.user.styl">https://gitlab.com/vednoc/dark-instagram/raw/master/instagram.user.styl</a></li>
 </ol>
-<p>An example URL can be <code v-pre>google.com/search?q=%s</code> where <code v-pre>%s</code> will be replaced by your search query.</p>
+<p><figure class="content-center">
+    <img src="/static/images/dual-facing-css.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ul>
+<li>Preprocessors supported: <code v-pre>default</code>, <code v-pre>uso</code>, <a href="https://stylus-lang.com/"><code v-pre>stylus</code></a> and <a href="https://lesscss.org/"><code v-pre>less</code></a></li>
+<li>Supported <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@document"><code v-pre>@-moz-document</code></a> filters (these allow scoping styles to specific pages):
+<ul>
+<li><code v-pre>url</code></li>
+<li><code v-pre>url-prefix</code></li>
+<li><code v-pre>domain</code></li>
+<li><code v-pre>regexp</code></li>
+</ul>
+</li>
+<li><code v-pre>@var</code> is supported;</li>
+</ul>
+<p>Some galleries for CSS user styles:</p>
+<ul>
+<li><a href="https://userstyles.world/">https://userstyles.world/</a></li>
+<li><a href="https://userstyles.org/">https://userstyles.org/</a></li>
+</ul>
+<p>Note that Safari loads the mobile version of pages by default, so any styles designed for the desktop version may not work properly.</p>
 
 
 
@@ -201,20 +218,20 @@
             
 <nav class="flex mt-14">
     <div class="w-1/2">
-        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/popular/search/custom-search-recipe/">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/styling/dark-mode/">
             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
             <span>
                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                <span class="block mt-1">How to search only your favorite recipe sites when looking up recipes</span>
+                <span class="block mt-1">How to dark mode any website in iOS Safari</span>
             </span>
         </a>
     </div>
 
     <div class="w-1/2">
-        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/popular/search/custom-search-news/">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/custom-javascript/custom-js/">
             <span>
                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                <span class="block mt-1">Search only your trusted sources when looking up the news</span>
+                <span class="block mt-1">How to inject custom Javascript in iOS Safari</span>
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
         </a>
@@ -265,6 +282,6 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "How to use a non Apple default search engine in iOS Safari", icon: "file", hasPrism: false, hasMermaid: false }</script>
+        <script>window.__DOCS__ = { "title": "How to inject custom CSS in iOS Safari", icon: "file", hasPrism: false, hasMermaid: false }</script>
     </body>
 </html>
