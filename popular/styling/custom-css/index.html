@@ -8,25 +8,27 @@
     <!-- Primary Meta Tags -->
     <title>How to inject custom CSS in iOS Safari</title>
     <meta name="title" content="How to inject custom CSS in iOS Safari">
-    <meta name="description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit." />
+    <meta name="description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit. This is a free feature." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://guide.hyperweb.app/popular/styling/custom-css/">
     <meta property="og:title" content="How to inject custom CSS in iOS Safari">
-    <meta property="og:description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit.">
+    <meta property="og:description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit. This is a free feature.">
+    <meta property="og:image" content="https://guide.hyperweb.app/static/images/dual-facing-wikidarklight.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://guide.hyperweb.app/popular/styling/custom-css/">
     <meta property="twitter:title" content="How to inject custom CSS in iOS Safari">
-    <meta property="twitter:description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit.">
+    <meta property="twitter:description" content="Hyperweb allows you to inject custom CSS on any website to change the style as you see fit. This is a free feature.">
+    <meta property="twitter:image" content="https://guide.hyperweb.app/static/images/dual-facing-wikidarklight.png">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.9.686174417257" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.9.686176081058" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.9.686174417257" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.9.686176081058" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.9" defer data-turbo-track="reload"></script>
 </head>
     <body>
@@ -179,9 +181,9 @@
         <span>How to inject custom CSS in iOS Safari</span>
     </h1>
 </doc-anchor-target>
-<p>Hyperweb allows you to inject custom CSS on any website to change the style as you see fit.</p>
+<p>Hyperweb allows you to inject custom CSS on any website to change the style as you see fit. This is a free feature.</p>
 <p><figure class="content-center">
-    <img src="../static/images/dual-facing-wikidarklight.png" alt="" />
+    <img src="/static/images/dual-facing-wikidarklight.png" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -191,11 +193,23 @@
 <li>A a custom style from a URL, e.g. <a href="https://gitlab.com/vednoc/dark-instagram/raw/master/instagram.user.styl">https://gitlab.com/vednoc/dark-instagram/raw/master/instagram.user.styl</a></li>
 </ol>
 <p><figure class="content-center">
-    <img src="../static/images/dual-facing-css.png" alt="" />
+    <img src="/static/images/dual-facing-css.png" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Some galleries for custom CSS include</p>
+<ul>
+<li>Preprocessors supported: <code v-pre>default</code>, <code v-pre>uso</code>, <a href="https://stylus-lang.com/"><code v-pre>stylus</code></a> and <a href="https://lesscss.org/"><code v-pre>less</code></a></li>
+<li>Supported <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@document"><code v-pre>@-moz-document</code></a> filters (these allow scoping styles to specific pages):
+<ul>
+<li><code v-pre>url</code></li>
+<li><code v-pre>url-prefix</code></li>
+<li><code v-pre>domain</code></li>
+<li><code v-pre>regexp</code></li>
+</ul>
+</li>
+<li><code v-pre>@var</code> is supported;</li>
+</ul>
+<p>Some galleries for CSS user styles:</p>
 <ul>
 <li><a href="https://userstyles.world/">https://userstyles.world/</a></li>
 <li><a href="https://userstyles.org/">https://userstyles.org/</a></li>
