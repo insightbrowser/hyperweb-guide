@@ -17,7 +17,7 @@ We hope you enjoy Hyperweb, and feel free to reach out to us via `support@hyperw
   * [Content Blocker](/remove-annoyances//block-content)
   * [Autoclicker](/remove-annoyances//autoclick)
 * Scripting
-  * [Inject Custom Javascript](/scripts/custom-js)
+  * [Inject Custom Javascript](/custom-javascript/custom-js/)
 * Styling
   * [Inject Custom CSS](/styling/custom-css)
   * [Dark Mode](/styling/dark-mode)
