@@ -22,9 +22,9 @@ We hope you enjoy Hyperweb, and feel free to reach out to us via `support@hyperw
   * [Inject Custom CSS](/styling/custom-css)
   * [Dark Mode](/styling/dark-mode)
 * Web Search
-  * [Change the default search engine](/search/change-search)
-  * [Create a trusted search filter](/search/custom-search)
-  * [Create a custom recipe search filter](/search/custom-search-recipe)
-  * [Create a custom news search filter](/search/custom-search-news)
+  * [Change the default search engine](/search-enhancements/change-search)
+  * [Create a trusted search filter](/search-enhancements/custom-search)
+  * [Create a custom recipe search filter](/search-enhancements/custom-search-recipe)
+  * [Create a custom news search filter](/search-enhancements/custom-search-news)
 * [Local Enhancements](/local): Customize any site using if-then rules built right on your device.
 * [Suggested Enhancements](/suggested): Powerful enhancements automatically suggested as you browse the web
